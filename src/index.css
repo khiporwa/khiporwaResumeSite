@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 13% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
+
+    --primary: 165 72% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 165 25% 95%;
+    --secondary-foreground: 165 72% 30%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 165 72% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 165 72% 35%;
+
+    --radius: 0.375rem;
+
+    /* Resume specific tokens */
+    --resume-heading: 165 72% 35%;
+    --resume-subheading: 165 72% 30%;
+    --resume-text: 220 13% 25%;
+    --resume-muted: 220 9% 46%;
+    --resume-border: 220 13% 88%;
+    --resume-dot: 165 72% 35%;
+    --resume-skill-bg: 220 14% 96%;
+    --resume-skill-border: 220 13% 85%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 165 72% 35%;
+  }
+
+  .dark {
+    --background: 220 13% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 13% 12%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 13% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 165 72% 45%;
+    --primary-foreground: 220 13% 10%;
+
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 220 13% 18%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 165 72% 45%;
+    --accent-foreground: 220 13% 10%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 165 72% 45%;
+
+    --resume-heading: 165 72% 50%;
+    --resume-subheading: 165 72% 45%;
+    --resume-text: 0 0% 90%;
+    --resume-muted: 220 9% 60%;
+    --resume-border: 220 13% 25%;
+    --resume-dot: 165 72% 50%;
+    --resume-skill-bg: 220 13% 18%;
+    --resume-skill-border: 220 13% 25%;
+
+    --sidebar-background: 220 13% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 165 72% 50%;
+    --sidebar-primary-foreground: 220 13% 10%;
+    --sidebar-accent: 220 13% 15%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 220 13% 20%;
+    --sidebar-ring: 165 72% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer components {
+  .resume-container {
+    @apply max-w-4xl mx-auto bg-card shadow-lg;
+  }
+
+  .resume-section-title {
+    @apply text-lg font-semibold uppercase tracking-wide mb-4;
+    color: hsl(var(--resume-heading));
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .resume-link {
+    color: hsl(var(--resume-heading));
+    @apply hover:underline transition-colors;
+  }
+
+  .timeline-item {
+    @apply relative pl-6 pb-6 border-l-2;
+    border-color: hsl(var(--resume-border));
+  }
+
+  .timeline-item:last-child {
+    @apply pb-0;
+  }
+
+  .timeline-dot {
+    @apply absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 bg-card;
+    border-color: hsl(var(--resume-dot));
+  }
+
+  .timeline-dot-filled {
+    @apply absolute -left-[9px] top-0 w-4 h-4 rounded-full;
+    background-color: hsl(var(--resume-dot));
+  }
+
+  .skill-tag {
+    @apply inline-block px-3 py-1.5 text-sm rounded border;
+    background-color: hsl(var(--resume-skill-bg));
+    border-color: hsl(var(--resume-skill-border));
+    color: hsl(var(--resume-text));
+  }
+
+  .proficiency-dot {
+    @apply w-3 h-3 rounded-full;
+  }
+
+  .proficiency-dot-filled {
+    background-color: hsl(var(--resume-dot));
+  }
+
+  .proficiency-dot-empty {
+    @apply border-2;
+    border-color: hsl(var(--resume-dot));
+    background-color: transparent;
+  }
+}
+
+@media print {
+  body {
+    @apply bg-white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .resume-container {
+    @apply shadow-none max-w-none;
+  }
+  
+  .print\:hidden {
+    display: none !important;
+  }
+}
