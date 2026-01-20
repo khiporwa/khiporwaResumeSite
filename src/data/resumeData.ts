@@ -68,16 +68,16 @@ export const resumeData: ResumeData = {
     portfolio: "https://khiteshporwal.netlify.app/",
     location: "Hyderabad, India",
   },
-  summary: `I am a dynamic software engineer skilled in NetSuite ERP & Celigo with 4+ years of hands-on experience, including EDI, 3PL, and marketplace integrations. 
-  I excel in multitasking and effective communication, with proficiency in SaaS, middleware solutions, data migration, and enterprise application integration. 
-  My passion for indie game development and design complements my professional skills, allowing me to integrate artistry and technology seamlessly. 
-  My experience includes cloud integration and Oracle NetSuite integration.`,
+  summary: `I am a dynamic software engineer with 5+ years of professional industry experience and 4 years specialized in software development, 
+  with deep expertise in NetSuite ERP and Celigo integration platforms. My technical proficiency encompasses EDI implementations, 
+  3PL logistics integrations, and marketplace connectivity solutions. I excel in multitasking and stakeholder communication while delivering robust solutions across iPaaS platforms, 
+  SaaS ecosystems, middleware technologies, data migration projects, and enterprise application integration.`,
   experience: [
     {
       id: "exp-1",
       dateRange: "08/2024 - Present",
       location: "Hyderabad, India",
-      title: "Software Engineer (NetSuite & Celigo 4+ Years)",
+      title: "Software Engineer (NetSuite & Celigo 4 Years)",
       company: "Novamodule Pvt Ltd",
       companyUrl: "#",
       highlights: [
@@ -99,7 +99,7 @@ export const resumeData: ResumeData = {
     },
     {
       id: "exp-2",
-      dateRange: "03/2022 - 08/2024",
+      dateRange: "03/2023 - 08/2024",
       location: "Hyderabad, India",
       title: "Implementation Engineer",
       company: "Novamodule Pvt Ltd",
@@ -128,7 +128,7 @@ export const resumeData: ResumeData = {
     },
     {
       id: "exp-3",
-      dateRange: "06/2021 - 03/2022",
+      dateRange: "06/2022 - 03/2023",
       location: "Hyderabad, India",
       title: "Associate Implementation Engineer",
       company: "Novamodule Pvt Ltd",
@@ -149,7 +149,7 @@ export const resumeData: ResumeData = {
     },
     {
       id: "exp-4",
-      dateRange: "10/2017 - 04/2022",
+      dateRange: "10/2021 - 04/2022",
       location: "Hyderabad, India",
       title: "VCS Associate (IP)",
       company: "Amazon Development Centre Private Limited",
@@ -171,7 +171,7 @@ export const resumeData: ResumeData = {
     },
     {
       id: "exp-5",
-      dateRange: "04/2016 - 10/2018",
+      dateRange: "06/2020 - 12/2020",
       location: "Hyderabad, India",
       title: "UI/UX Artist",
       company: "Saburi Informatics",
@@ -201,9 +201,9 @@ export const resumeData: ResumeData = {
   education: [
     {
       id: "edu-1",
-      dateRange: "06/2016 - 10/2021",
+      dateRange: "06/2018 - 06/2021",
       location: "Hyderabad, India",
-      degree: "Bachelor's of Commerce: Mathematics and Commerce",
+      degree: "Bachelor's of science: Multimedia & Animation",
       institution: "Loyola Academy Degree & PG College",
     },
   ],
@@ -215,8 +215,8 @@ export const resumeData: ResumeData = {
   skills: [
     {
       skills: [
-        { name: "Oracle NetSuite ERP", years: "4+ Years" },
-        { name: "Celigo Integrator.IO", years: "4+ Years" },
+        { name: "Oracle NetSuite ERP", years: "4 Years" },
+        { name: "Celigo Integrator.IO", years: "4 Years" },
         { name: "3PL Systems (Versatile)" },
         { name: "Stripe" },
         { name: "Shopify" },
