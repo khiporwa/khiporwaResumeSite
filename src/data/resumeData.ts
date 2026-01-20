@@ -68,8 +68,7 @@ export const resumeData: ResumeData = {
     portfolio: "https://khiteshporwal.netlify.app/",
     location: "Hyderabad, India",
   },
-  summary: `I am a dynamic software engineer with 5+ years of professional industry experience and 4 years specialized in software development, 
-  with deep expertise in NetSuite ERP and Celigo integration platforms. My technical proficiency encompasses EDI implementations, 
+  summary: `I am a dynamic software engineer with 5+ years of professional industry experience and 4 years specialized expertise in NetSuite ERP and Celigo integration platforms. My technical proficiency encompasses EDI implementations, 
   3PL logistics integrations, and marketplace connectivity solutions. I excel in multitasking and stakeholder communication while delivering robust solutions across iPaaS platforms, 
   SaaS ecosystems, middleware technologies, data migration projects, and enterprise application integration.`,
   experience: [
