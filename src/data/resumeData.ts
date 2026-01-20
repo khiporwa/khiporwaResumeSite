@@ -64,25 +64,37 @@ export const resumeData: ResumeData = {
   name: "KHITESH PORWAL",
   title: "Software Engineer",
   contact: {
-    email: "khiteshporwal@gmail.com",
-    portfolio: "https://khiteshporwal.myportfolio.app",
+    email: "khiteshjainofficial@gmail.com",
+    portfolio: "https://khiteshporwal.netlify.app/",
     location: "Hyderabad, India",
   },
-  summary: `I am a dynamic software engineer based in Hyderabad with 10 years of experience, including 5.5 years with one of India's leading IT services companies, where I honed my skills in .NET, web development, SQL, API integration, web APIs, data management, cloud technologies, vendor integration, client communication, and server management. My profile exhibits proven ability to deliver high-quality solutions along with strong problem-solving abilities and expertise in .NET and cloud technologies, and I am seeking new opportunities to further expand my knowledge by exploring innovative technologies in the industry.`,
+  summary: `I am a dynamic software engineer skilled in NetSuite ERP & Celigo with 4+ years of hands-on experience, including EDI, 3PL, and marketplace integrations. 
+  I excel in multitasking and effective communication, with proficiency in SaaS, middleware solutions, data migration, and enterprise application integration. 
+  My passion for indie game development and design complements my professional skills, allowing me to integrate artistry and technology seamlessly. 
+  My experience includes cloud integration and Oracle NetSuite integration.`,
   experience: [
     {
       id: "exp-1",
       dateRange: "08/2024 - Present",
       location: "Hyderabad, India",
-      title: "Software Engineer",
-      company: "VeriSlab B. College",
+      title: "Software Engineer (NetSuite & Celigo 4+ Years)",
+      company: "Novamodule Pvt Ltd",
       companyUrl: "#",
       highlights: [
-        "Have Module in VeriSlab is Oracle B2B Integration application, for file rename along with ERP integration, applications, EDI integration and enterprise system automation. The system included API integration for e-Commerce platforms, marketplaces, OMS, CRMs, and payment solutions - integrating with APIs from products like Shopify, Amazon, eBay, Walmart, Magento, Salesforce, etc.",
-        "Enterprise Integration Development: Migrated Oracle ICS and Jitterbit to Oracle cloud platforms using Mulesoft APIs integration services to on-premise backend systems, like Salesforce, Oracle NETSUITE, Warehouse Systems, Oracle MVC CIS, SAP Billing, Microsoft Dynamics, CW, Shopify, Walmart, etc.",
-        "Celigo iPaaS Implementation: In-house and third-party system and product integrations using Celigo Integrator.io using REST/SOAP APIs, SFTP-based integration, error handling and alerting, data mapping, scheduling, and Flows to automate business critical processes with ERP systems, like NetSuite, Shopify, SAP and custom data processing tools.",
-        "ERP & Order Management Support: Supported enterprise EDI system workflows and order lifecycle processes for multi-channel fulfillment, warehousing, and inventory flow control for ERP systems with NetSuite, Oracle EBS, SAP, Salesforce and Oracle JD Edwards systems; custom API integration, error handling, and data mapping.",
-        "Project & Development Management: Trained and executed integration projects for ERP systems, milestones, deliverables, timelines, and collaboration strategies for stakeholders, developers, QA teams, and client teams.",
+        "Nova Module is a NetSuite Alliance & SDN Partner and Celigo Elite Partner specializing in Oracle NetSuite ERP implementation, Celigo Integrator.io development, EDI integrations, and enterprise system automation. The company delivers scalable solutions integrating eCommerce platforms, marketplaces, 3PLs, CRMs, and payment systems, enabling seamless data synchronization, operational efficiency, and business scalability for global clients.",
+        "Enterprise Integration Development: Designed, developed, and deployed end-to-end Oracle NetSuite ERP integrations with major marketplaces and eCommerce platforms including Amazon, Shopify, Walmart, eBay, BigCommerce, WooCommerce, Square, ensuring accurate order, inventory, fulfillment, and financial data flow.",
+        "Celigo iPaaS Implementation: Architected and implemented custom and pre-built integrations using Celigo Integrator.io, leveraging REST/SOAP APIs, JSON data transformation, error handling, scheduling, and monitoring to deliver scalable, fault-tolerant integration solutions.",
+        "3PL & WMS Automation: Built and managed custom third-party logistics (3PL) and Warehouse Management System (WMS) integrations (e.g., ShipStation, Centric, Snowflake-based pipelines), automating order fulfillment, shipment tracking, inventory synchronization, and ASN workflows to optimize supply chain operations.",
+        "Custom Integration Solutions: Developed bespoke integration flows for non-standard logistics providers and partner systems, implementing business-specific mapping, transformation logic, and exception handling to meet complex operational requirements.",
+        "Real-Time & Near Real-Time Synchronization: Implemented real-time and event-driven data synchronization across ERP, eCommerce, CRM, and WMS systems to ensure data consistency, accuracy, and operational visibility.",
+        "CRM & Downstream System Integration: Integrated NetSuite with CRM platforms to enable unified customer data, synchronized sales orders, invoices, and customer records, improving sales operations and reporting accuracy.",
+        "Data Warehouse & Analytics Integration: Designed integrations between data warehouses and NetSuite/CRM systems, enabling centralized reporting, analytics, and business intelligence through structured and automated data pipelines.",
+        "EDI & Order Management Support: Supported and enhanced EDI-driven workflows and order lifecycle processes, ensuring seamless exchange of transactional data between trading partners, marketplaces, and backend ERP systems.",
+        "Implementation & Client Enablement: Delivered end-to-end implementation support, including requirements analysis, solution design, UAT support, deployment, post-go-live stabilization, documentation, and knowledge transfer to client technical and operations teams.",
+        "Project & Stakeholder Management: Planned and executed integration projects by defining scope, milestones, deliverables, timelines, and risk mitigation strategies, collaborating closely with cross-functional teams and external stakeholders.",
+        "Platform Certification & Expertise: Celigo-certified Integration Apps specialist, demonstrating advanced expertise in configuring, optimizing, and extending Celigo solutions to streamline enterprise workflows and improve system interoperability.",
+
+
       ],
     },
     {
@@ -90,14 +102,28 @@ export const resumeData: ResumeData = {
       dateRange: "03/2022 - 08/2024",
       location: "Hyderabad, India",
       title: "Implementation Engineer",
-      company: "VendorBridge Pvt Ltd",
+      company: "Novamodule Pvt Ltd",
       companyUrl: "#",
       highlights: [
-        "Celigo Integration Engineering and API Integration",
-        "Achieved Celigo certification in Integration for Sales-related warehousing API integration use cases",
-        "Received improvement in weekly 10% under API integration, enabling 1.5x faster response and overall around 6% decrease in API request timeouts and improved accuracy of 8%",
-        "Proficient in web or console apps and end-to-end integration patterns for Business Central, S1 Microsoft integration, and enhanced integration performance by 25%",
-        "Configuration of Source Systems and integration support to the design team",
+        "Achieved Celigo Certified Level 5x Engineer Status, attained Level 5x certification from Celigo, demonstrating top tier expertise in the platform.",
+
+        "Enhanced project efficiency and client satisfaction by 20%.",
+
+        "Orchestrated seamless integration between multiple APIs including Shopify, WooCommerce, eBay, LoopReturns, Walmart, Bergen Logistics, Amazon, and Orderful EDI.",
+
+        "Reduced manual errors by 50% in order fulfillment processes, resulting in a 15% decrease in operational costs and a 10% increase in order processing speed.",
+
+        "Provided end-to-end support for software implementation life cycles, improved client retention by 30% and reduced implementation time by 25%.",
+
+        "Collaborated on system audits for timely implementations, decreased project delays by 20% and increased project success rates by 15%.",
+
+        "Configured and executed system software changes, increased system reliability and client satisfaction by 10%.",
+
+        "Inspected software changes to reduce post-deployment issues, decreased post-deployment issues by 40% and lowered support costs by 20%.",
+
+        "Performed comprehensive process testing and documentation, prepared detailed documentation, reducing onboarding time for new team members by 30%.",
+
+        "Designed and implemented system security and data assurance, developed robust system security measures and data assurance protocols, decreased security incidents by 25% and increased client trust by 20%.",
       ],
     },
     {
@@ -105,42 +131,70 @@ export const resumeData: ResumeData = {
       dateRange: "06/2021 - 03/2022",
       location: "Hyderabad, India",
       title: "Associate Implementation Engineer",
-      company: "VendorBridge Pvt Ltd",
+      company: "Novamodule Pvt Ltd",
       companyUrl: "#",
       highlights: [
-        "Implementation (Celigo Integration, Engineering, and Support)",
-        "Developed and improved data processing methodology by 5x time",
-        "Led and drove 30% faster project delivery by implementing Celigo in flows",
-        "Configured Source System to sync data of Magento2 to NetSuite for sales related entities in 15% better performance",
-        "Integrated Shopify to Celigo Shopify to NetSuite connections",
-        "API endpoint and system-to-system implementation, data processing, data import/export by API and auto sync",
+        "Provided end-to-end support for cloud implementation life cycles, ensuring smooth deployment and successful adoption.",
+
+        "Collaborated on system audits to ensure timely implementation and adherence to best practices.",
+
+        "Configured and executed system integration updates, improving reliability and enhancing client satisfaction by 10%.",
+
+        "Reviewed integration changes to minimize post-deployment issues and improve system stability.",
+
+        "Conducted comprehensive process testing and documentation, reducing onboarding time for new team members by 30%.",
+
+        "Designed and implemented system security and data assurance protocols, reducing security incidents by 25% and increasing client trust by 20%.",
       ],
     },
     {
       id: "exp-4",
       dateRange: "10/2017 - 04/2022",
       location: "Hyderabad, India",
-      title: "UI Developer / PIC",
+      title: "VCS Associate (IP)",
       company: "Amazon Development Centre Private Limited",
       highlights: [
-        "UI Frontend is next-gen UI project for AMZ internal system tools",
-        "Developed SV-Frontend tools, inventory tools, pod fulfillment and allocation tools",
-        "Trained Junior developers, helping them get certified on Amazon SV fulfillment center experience",
-        "Integrated micro-frontend apps to enhance processes, amazon-attributes, and amazon dashboard",
+        "Contributed to operations at a leading e-commerce organization, delivering high-quality customer service in a fast-paced environment.",
+
+        "Demonstrated strong time management skills, consistently meeting tight deadlines while maintaining service quality and accuracy.",
+
+        "Applied critical thinking to analyze issues, evaluate solutions, and make informed decisions to improve workflow efficiency.",
+
+        "Supported daily order processing and customer queries, ensuring timely resolution and customer satisfaction.",
+
+        "Collaborated with cross-functional teams to address customer concerns and streamline internal processes.",
+
+        "Maintained accurate documentation and records, ensuring data integrity and operational transparency.",
+
+        "Proactively identified process gaps and suggested improvements to enhance team productivity and reduce errors.",
       ],
     },
     {
       id: "exp-5",
       dateRange: "04/2016 - 10/2018",
       location: "Hyderabad, India",
-      title: "Developer",
-      company: "Fusion Informatics",
+      title: "UI/UX Artist",
+      company: "Saburi Informatics",
       highlights: [
-        "Web development in .NET with business logic implementation",
-        "Worked on .NET Front-end and Custom C# integrations",
-        "Backend Desi Project, ASP.Net Channel Expertise",
-        "Full-stack skills in .NET + angular technologies for web processing and mobile data integration",
-        "Multiple project skill sets in .NET technologies",
+        "Pioneered emerging UI/UX trends and effectively addressed design challenges to deliver innovative solutions.",
+
+        "Designed client-centric UI/UX interfaces with a strong focus on usability and visual appeal.",
+
+        "Created subtle, engaging UI/UX designs that aligned with client expectations while enhancing creative output.",
+
+        "Identified and resolved UI/UX issues by applying user-focused design principles and best practices.",
+
+        "Conducted user research and feedback analysis to improve interface functionality and user satisfaction.",
+
+        "Collaborated with stakeholders to translate business requirements into intuitive UI/UX designs.",
+
+        "Developed wireframes, prototypes, and design mockups to communicate concepts clearly and effectively.",
+
+        "Ensured design consistency by maintaining UI guidelines, style guides, and visual standards.",
+
+        "Optimized UI/UX elements for better accessibility and improved overall user experience.",
+
+        "Iterated designs based on usability testing and stakeholder feedback to achieve continuous improvement.",
       ],
     },
   ],
@@ -156,13 +210,19 @@ export const resumeData: ResumeData = {
   languages: [
     { name: "English", written: 5, verbal: 5 },
     { name: "Hindi", written: 5, verbal: 5 },
-    { name: "Native", written: 5, verbal: 5 },
+    // { name: "Native", written: 5, verbal: 5 },
   ],
   skills: [
     {
       skills: [
         { name: "Oracle NetSuite ERP", years: "4+ Years" },
         { name: "Celigo Integrator.IO", years: "4+ Years" },
+        { name: "3PL Systems (Versatile)" },
+        { name: "Stripe" },
+        { name: "Shopify" },
+        { name: "Amazon" },
+        { name: "Walmart" },
+        { name: "eBay" },
         { name: "JavaScript" },
         { name: "HTML" },
         { name: "CSS" },
@@ -198,11 +258,7 @@ export const resumeData: ResumeData = {
         { name: "Data Integrity" },
         { name: "Google Cloud" },
         { name: "AWS services" },
-        { name: "Stripe" },
-        { name: "Shopify" },
-        { name: "Amazon" },
-        { name: "Walmart" },
-        { name: "eBay" },
+      
       ],
     },
   ],
@@ -211,13 +267,13 @@ export const resumeData: ResumeData = {
       id: "int-1",
       icon: "gamepad",
       title: "Game Design & Development",
-      description: "Front-end / indie game dev and designer, anime design & animation lover",
+      description: "Indie game dev and 3D artist",
     },
     {
       id: "int-2",
       icon: "trending-up",
       title: "Stock Market Trading & Investing",
-      description: "Options and F&O in the stock market and markets",
+      description: "Intraday, money market & financial market - Investigator",
     },
     {
       id: "int-3",
@@ -229,7 +285,7 @@ export const resumeData: ResumeData = {
       id: "int-4",
       icon: "film",
       title: "Film Making & 3D Animation",
-      description: "Film making & 3D graphics",
+      description: "Film making & 3D visual a rtist",
     },
     {
       id: "int-5",
